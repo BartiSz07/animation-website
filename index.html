@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="pl">
-
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Strona z animacją</title>
+        <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <div class="animacja">
-            Bartek
-        </div>
+       <nav class="active" id="nav">
+        <ul>
+            <li><a href="#">Strona Główna</a></li>
+            <li><a href="#">Moje Prace</a></li>
+            <li><a href="#">O mnie</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+        <button class="icon" id="toggle">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+        </button>
+       </nav>
+       <script src="script.js"></script>
     </body>
-   </html>
